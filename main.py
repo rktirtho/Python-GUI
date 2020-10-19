@@ -4,6 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from tkinter import *
 root = Tk()
+root.title("Hawk Eye: Intillegant Security System")
 
 # Creating a Label widget
 
