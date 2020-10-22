@@ -3,5 +3,5 @@ from PIL import Image
 
 root = Tk()
 root.title("Hawk Eye/Login")
-root.iconbitmap('logo.ico')
+root.iconbitmap('images/ico.jpg')
 root.mainloop()
