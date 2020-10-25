@@ -11,6 +11,7 @@ class LoginSystem:
         self.root.title("Login System")
         # self.root.iconbitmap("logo.ico")
         self.root.geometry("1350x780+0+0")
+        self.root.minsize(850, 500)
 
         self.ent_username = StringVar()
         self.ent_password = StringVar()
@@ -21,7 +22,7 @@ class LoginSystem:
         self.pass_icon = ImageTk.PhotoImage(file="images/icons8-forgot-password-26.png")
         self.placeholder_icon = ImageTk.PhotoImage(file="images/placeholder.png")
         bg_lbl = Label(self.root, image=self.bg_icon).pack()
-        title = Label(self.root, text="Login System", font=("times new roman", 30, 'bold'), bg='yellow', fg='red', bd=10, relief=GROOVE)
+        title = Label(self.root, text="Login System", font=("times new roman", 30, 'bold'), relief=GROOVE)
         title.place(x=0, y=0, relwidth=1)
 
         login_frame = Frame(self.root, bg='white', pady=20)
